@@ -41,8 +41,6 @@ $(document).ready(function() {
   var paginationTemplate = Hogan.compile($('#pagination-template').text());
   var noResultsTemplate = Hogan.compile($('#no-results-template').text());
 
-
-
   // SEARCH BINDING
   // ==============
 
@@ -79,8 +77,6 @@ $(document).ready(function() {
   // Initial search
   initFromURLParams();
   algoliaHelper.search();
-
-
 
   // RENDER SEARCH COMPONENTS
   // ========================
